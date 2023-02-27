@@ -3,11 +3,11 @@ import ReactDOM from "react-dom/client";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
-const heading1 = React.createElement("h1", { key: "h1" }, "heading 1");
-const heading2 = React.createElement("h2", { key: "h2" }, "heading 2");
-const container = React.createElement("div", { id: "container" }, [
-  heading1,
-  heading2,
-]);
+const ContainerComponent = () => (
+  <div>
+    <h1>Heading 1</h1>
+    <h2>heading 2</h2>
+  </div>
+);
 
-root.render(container);
+root.render(<ContainerComponent />);
