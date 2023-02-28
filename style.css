@@ -44,3 +44,15 @@
   grid-template-columns: 280px 280px 280px 280px 280px;
   justify-content: space-between;
 }
+
+.search-bar > input {
+  width: 80%;
+  padding: 0.5rem;
+  margin: 1rem;
+  font-size: large;
+}
+
+.search-bar > button {
+  padding: 0.5rem;
+  font-size: large;
+}
